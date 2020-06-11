@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/txt_result"
+            android:layout_above="@+id/buttonLoadPicture"
+            android:text="Please select image and click analyze"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp">
+
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+           >
+
+        </ImageView>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/buttonLoadPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Load Picture"
+            android:layout_gravity="center">
+
+        </Button>
+
+        <Button
+            android:id="@+id/buttonreco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="260dp"
+            android:text="Analyze">
+
+        </Button>
+
+
+
+
+
+
+</RelativeLayout>
